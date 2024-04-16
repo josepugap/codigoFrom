@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: hsl(0, 0%, 20%);
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 400px; 
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 20px;
+
+}
+
+.card-body {
+  font-size: 18px;
+  color: #555555;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.card-info {
+  margin-bottom: 20px;
+}
+
+.card-info label {
+  font-weight: bold;
+  color: #777777;
+}
+
+.card-info p {
+  margin: 10px 0;
+}
+
+.home-container {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f0f2f5;
+  max-width: 90%; 
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.home-container button,
+.buttons-container a {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-container button {
+  background-color: #4CAF50; 
+}
+
+.home-container button:hover,
+.buttons-container a:hover {
+  background-color: #2196F3; 
+}
+
+.buttons-container a {
+  background-color: #007bff;;
+  text-decoration: none;
+}

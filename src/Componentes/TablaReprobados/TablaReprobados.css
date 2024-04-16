@@ -1,0 +1,65 @@
+
+.table-card {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .table th,
+  .table td {
+    font-size: 14px;
+  }
+
+  .table-title {
+    font-size: 20px;
+  }
+}

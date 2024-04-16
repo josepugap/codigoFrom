@@ -1,0 +1,57 @@
+.calificaciones-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.calificaciones-container > div {
+  margin-bottom: 15px;
+}
+
+.calificaciones-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.calificaciones-container select,
+.calificaciones-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.calificaciones-container select:focus,
+.calificaciones-container input[type="number"]:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.calificaciones-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c63ff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calificaciones-container button:hover {
+  background-color: #5649cc;
+}
+
+.calificaciones-container p {
+  margin-top: 10px;
+  font-size: 0.9em; 
+  color: #888;
+}
